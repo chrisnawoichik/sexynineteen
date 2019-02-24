@@ -1,0 +1,62 @@
+@media only screen and (min-width: 768px){
+.site-logo .custom-logo-link {
+width:120px;
+height:120px;
+}	
+}
+.site-title{
+font-size:34px;
+font-weight:600
+}
+.site-description {
+display: inline;
+color:#007eb5;
+font-weight: normal;
+}
+.site-header.featured-image {
+overflow: hidden;
+position: relative;
+text-shadow: 2px 1px 1px #111;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.site-header.featured-image:after {
+background: none;
+}
+p, body{
+font-family:arial;
+font-size:20px;
+line-height:1.5em;
+color:#1c1c1c
+}
+h1, h2, h3, h4, h5, h6{
+font-weight:500;
+}
+@media (min-width:768px){
+.entry .post-thumbnail .post-thumbnail-inner img {
+position: relative;
+display: block;
+width: 66%;
+}
+}
+@media (max-width:420px){
+.entry .entry-content, .entry .entry-summary{
+max-width:100%;
+margin-left:0.5rem;
+margin-right:0.5rem
+}
+.entry .post-thumbnail {
+margin-top: 0rem;
+margin-right: 0rem;
+margin-bottom: 0rem;
+margin-left: 0rem;
+}	
+}
+.author-bio .author-description {
+display: inline;
+color: darkred;
+font-family:arial;
+font-size: 19px;
+line-height:inherit
+}
